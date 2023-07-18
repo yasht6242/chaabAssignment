@@ -1,0 +1,59 @@
+.status_container{
+    display: flex;
+    flex-direction: column;
+width: 241px;
+height: 413px;
+padding: 20px 17.315px 21.644px 17.315px;
+flex-direction: column;
+align-items: center;
+gap: 4.329px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px #B4CEFF;
+}
+.status_container_pie_chart_data{
+    display: flex;
+    margin-top: 30px;
+}
+.status_container_heading{
+    color: #333;
+
+/* H5 */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 17px */
+text-transform: capitalize;
+
+}
+.status_container_pie_chart_data_text{
+
+    color: #333;
+
+    /* caption */
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 15.4px */
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.status_container_pie_chart_data_one, .status_container_pie_chart_data_two{
+    display: flex;
+    flex-direction: column;
+}
+.status_container_pie_chart_data_two{
+    margin-left: 30px;
+}
+.status_container_pie_chart_data_sub_containers{
+    display: flex;
+    margin-top: 6px;
+}
+.status_container_pie_chart{
+    width: 238px;
+height: 238px;
+margin-top: 20px;
+}

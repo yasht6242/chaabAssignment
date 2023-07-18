@@ -1,0 +1,35 @@
+.dashboard_line_charts_boxes{
+    display: flex;
+    padding-left: 24px;
+    padding-top: 15px;
+    width: 1133px;
+height: 172px;
+flex-shrink: 0;
+gap: 10px;
+}
+.line_charts_boxes_distance{
+margin-left: 10px;
+}
+.dashboard_chapterwise_status_active_training_components {
+    display: flex;
+    margin-top: 26px;
+    padding-left: 24px;
+
+}
+.dashboard_monthly_training_quiz_completions_componenents
+{
+    display: flex;
+    margin-top: 26px;
+    padding-left: 24px;
+    gap: 9px;
+
+}
+.dashboard_chapterwise_active_training_component{
+    margin-left: 10px;
+}
+.dashboard_container{
+    background-color: rgba(180, 206, 255, 1);
+    height: 1006px;
+    /* width: 190.7% */
+}
+

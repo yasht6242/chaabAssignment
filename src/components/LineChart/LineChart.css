@@ -1,0 +1,97 @@
+.line_chart_container{
+    display: flex;
+width: 316px;
+padding: 20px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 11px;
+border-radius: 10px;
+border: 1px solid rgba(51, 51, 51, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+
+}
+.line_chart_content_box{
+    display: flex;
+    margin-top: 35px;
+}
+
+.line_chart_content_description{
+    display: flex;
+}
+ 
+
+.line_chart_content_description{
+    display: flex;
+    flex-direction: column;
+}
+.line_chart_heading{
+    color: #333;
+
+    /* H5 */
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 17px */
+    text-transform: capitalize;
+}
+.line_chart_content_description_numbers{
+    color: #333;
+
+    /* H3 bold */
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 46.2px */
+}
+.line_chart_content_description_percentages_text{
+    color: #018E42;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.line_chart_content_description_percentages_number{
+    color: #333;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+.line_chart_content_description_percentages_numbers_box .line_chart_content_description_percentages_box{
+    display: flex;
+}
+.line_chart_content_description_percentages_numbers_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.line_chart_content_description_percentages_box{
+    border-radius: 4px;
+    background: rgba(1, 142, 66, 0.10);
+
+padding: 1px 4px;
+align-items: center;
+gap: 4px;
+}
+.line_chart_content_description_percentages_box:nth-of-type(){
+    background: #ED1C24;
+}
+.line_chart_content_description_percentages_image{
+
+}
+.chart_image{
+    width: 112px;
+    height: 123px
+}
+.line_chart_diagram{
+    margin-top: -33px;
+    margin-left: 20px;
+
+}

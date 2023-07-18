@@ -1,0 +1,63 @@
+.quiz_container{
+    width: 248px;
+height: 283px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 11.997173309326172px 29.99612045288086px 0px rgba(47, 50, 125, 0.10);
+padding-top: 20px;
+padding-left: 23px;
+padding-right: 40px;
+}
+.quiz_passing_heading{
+    color: #333;
+
+/* H5 */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 17px */
+text-transform: capitalize;
+}
+.quiz_pie_chart_information_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.quiz_status_container .quiz_status_text_containers{
+    display: flex;
+    flex-direction: column;
+}
+.quiz_status_sub_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz_status_text_heading{
+    color: #333;
+
+    /* body bold */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+}
+.quiz_status_text_description{
+    color: #333;
+
+    /* caption */
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 15.4px */
+    text-transform: capitalize;
+}
+.quiz_status_text_containers{
+    margin-left: 5px;
+}
+.quiz_status.container{
+    margin-left: 14px;
+}

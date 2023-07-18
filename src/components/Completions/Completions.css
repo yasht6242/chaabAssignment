@@ -1,0 +1,52 @@
+.completion_container{
+    width: 526px;
+    height: 302px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+}
+#chartVersion{
+    display: none;
+}
+.completion_status_heading_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.chartBox_completion {
+    width: 492px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none; /* Remove the border */
+
+    height: 189px;
+  }
+.completion_status_heading{
+    color: #333;
+
+/* H5 */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 17px */
+text-transform: capitalize;
+  }
+  .completion_status_heading_second_text{
+    color: #333;
+
+/* Title 1 */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 26.6px */
+text-transform: capitalize;
+  }
+   .canvas{
+    height: 218px;
+    width: 449px;
+  }
